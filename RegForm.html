@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta chartset="UTF-8">
+  <title>First form</title>
+  <link rel="stylesheet" href="styleReg.css">
+  </head>
+  <body>
+    <h1 id="title">Recruitment Form</h1>
+    <p id="description">Volunteer recruitment form</p>
+    <form id="survey-form">
+        <fieldset>
+            <legend>Personal Details</details></legend>
+      <label id="name-label" for="name">Enter your name: <input id="name" type="text" placeholder="Name" required/></label>
+      <label id="email-label" for="email">Enter your email: <input type="email" id="email" placeholder="Email" required/></label>
+      <label id="number-label" for="number">Enter your mobile no.: <input type="number" id="number" min="100000000" max="999999999" placeholder="Number" required/></label>
+        </fieldset>
+        <fieldset>
+            <legend>College Details</legend>
+      <label id="branch-label" for="dropdown">Enter your current class: 
+        <select id="dropdown" >
+          <option>select-branch</option>
+          <option>Biomedical-Engineering</option>
+          <option>Civil engineering</option>
+          <option>Computer Science Engineering</option>
+          <option>Electrical Engineering</option>
+          <option>Electronics and Instrumentation Engineering</option>
+          <option>Electronics and Telecommunnicaton Engineering</option>
+          <option>Industrial Production Engineering</option>
+          <option>Information Technology Engineering</option>
+          <option>Mechanical Engineering</option>
+          </select>
+      </label>
+      <label id="first-year-label" for="first"><input type="radio" id="first" name="year" value="first-year"/>First-Year</label>
+      <label id="second-year-label" for="second"><input type="radio" id="second" name="year" value="second-year"/>Second-Year</label> 
+    </fieldset>
+    <fieldset>
+        <legend>Domain</legend>
+      <label>Enter your domain of Interest</label>
+        <label for="app-development"><input type="checkbox" id="app-development" value="app-development">App Development</label> 
+        <label for="web-development"><input type="checkbox" id="web-development" value="web-development"/>Web Development</label>
+        <label for="management"><input type="checkbox" id="management" value="management"/>Management</label>
+        <label for="marketing"><input type="checkbox" id="marketing" value="marketing"/>Marketing</label>
+        <label for="content-writing"><input type="checkbox" id="content-writing" value="content-writing"/>Content  Writing</label>
+        <label for="bio"><textarea rows="4" cols="63" id="bio" placeholder="Tell me something about yourself..."></textarea></label>
+    
+    </fieldset>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+  </html>

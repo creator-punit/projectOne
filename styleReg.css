@@ -1,0 +1,59 @@
+body{
+    background-color: #190a44;
+    color: white;
+}
+h1, p{
+    text-align: center;
+}
+fieldset{
+    display: block;
+    width:500px;
+    margin: 2rem auto;
+    padding: 1rem 1rem;
+    border-color: white;
+}
+input[type="checkbox"] {
+    display:block;
+}
+form{
+    margin:0 auto;
+}
+label{
+    display: block;
+    padding: 0.2em;
+}
+input, select{
+    width:100%;
+    padding:0.2rem;
+    margin:0.2rem 0;
+    background-color: #10072a;
+    color:white;
+    border-color: #10072a;
+}
+input[type="radio"]{
+    width:unset;
+    vertical-align:middle;
+    margin: 0 0.5em 0 0;
+}
+input[type="checkbox"]{
+    width:unset;
+    display: inline;
+    vertical-align: top;
+    margin: 0 0.5em 0 0;
+    vertical-align:middle;
+}
+legend{
+    font-size:large;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+textarea{
+    background-color: #10072a;
+}
+input[type="submit"]{
+    color:white;
+    padding: 0.4em;
+    margin: 1em auto 2em auto;
+    width: 60%;
+    display: block;
+}
